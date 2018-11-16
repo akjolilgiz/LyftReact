@@ -2,7 +2,7 @@ import React from 'react';
 // import { Switch, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Content from './Content';
-
+import Footer from './Footer';
 
 function App(){
   return (
@@ -17,6 +17,7 @@ function App(){
       `}</style>
       <Navbar/>
       <Content/>
+      <Footer/>
     </div>
   );
 }
